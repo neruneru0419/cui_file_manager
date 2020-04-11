@@ -1,0 +1,11 @@
+/home/nerun/Documents/Rust/CUIFileManager/target/rls/debug/deps/futures_core-5b7819758a089f66.rmeta: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/future.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/poll.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/atomic_waker.rs
+
+/home/nerun/Documents/Rust/CUIFileManager/target/rls/debug/deps/futures_core-5b7819758a089f66.d: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/future.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/poll.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/atomic_waker.rs
+
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/lib.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/future.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/stream.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/mod.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/poll.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/mod.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.4/src/task/__internal/atomic_waker.rs:

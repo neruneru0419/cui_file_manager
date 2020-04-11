@@ -1,0 +1,11 @@
+/home/nerun/Documents/Rust/CUIFileManager/target/rls/debug/deps/serde_urlencoded-55e17ef6077c8b0b.rmeta: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/de.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/key.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/pair.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/part.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/value.rs
+
+/home/nerun/Documents/Rust/CUIFileManager/target/rls/debug/deps/serde_urlencoded-55e17ef6077c8b0b.d: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/de.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/mod.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/key.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/pair.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/part.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/value.rs
+
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/lib.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/de.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/mod.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/key.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/pair.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/part.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_urlencoded-0.6.1/src/ser/value.rs:

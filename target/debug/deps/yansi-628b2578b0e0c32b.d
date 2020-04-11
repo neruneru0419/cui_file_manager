@@ -1,0 +1,13 @@
+/home/nerun/Documents/Rust/CUIFileManager/target/debug/deps/yansi-628b2578b0e0c32b.rmeta: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs
+
+/home/nerun/Documents/Rust/CUIFileManager/target/debug/deps/libyansi-628b2578b0e0c32b.rlib: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs
+
+/home/nerun/Documents/Rust/CUIFileManager/target/debug/deps/yansi-628b2578b0e0c32b.d: /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs /home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs
+
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs:
+/home/nerun/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs:
