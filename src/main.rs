@@ -5,7 +5,7 @@ use std::io::{Read, Write, stdin};
 fn main() {
     println!("使用するモードを選んでください");
     println!("1->送信モード 2->受信モード");
-    let mut mode = input();
+    let mode = input();
     if mode == "1"{
         start_client();
     }else if mode == "2" {
@@ -29,7 +29,7 @@ fn start_client(){
         println!("ファイルを送信しています...");
         out.send(format!("{:?}",file_data)).unwrap(); 
         move |msg| {
-            println!("ファイルの送信を完了しました。");
+            println!("{}", msg);
             out.close(CloseCode::Normal)
         }
     }).unwrap()
@@ -43,18 +43,17 @@ fn start_server(){
     let ip = input();
     println!("ポートを入力して下さい");
     let port = input();
-    println!("ファイルの受信待ちです...");
+    println!("ファイルを受信しています...\n受信を終了する場合はctrl+cを押して下さい");
     listen(format!("{}:{}", ip, port), |out| {
-        println!("ファイルを受信しています...");
-        move |msg| {
-            let file_data = parse_file_data(format!("{}", msg));
+        move |_msg| {
+            let file_data = parse_file_data(format!("{}", _msg));
             let file_name = format!("{}", file_data[0]);
             let file_binary = string_to_vec(format!("{}", file_data[1]));
             let mut file = File::create(file_name).unwrap();
             file.write_all(&file_binary).unwrap();
             file.flush().unwrap();
             println!("ファイルの受信が完了しました。");
-            out.send(" ")
+            out.send("ファイルの送信が完了しました。")
         }
 
     }).unwrap()
@@ -89,8 +88,21 @@ fn input() -> String{
     input_str
 }
 
-fn parse_file_data(mut msg: String) -> Vec<String>{
-    let mut file_data: Vec<String> = msg.split(' ').collect();
-    //ファイル名とバイナリをパース
+fn parse_file_data(msg: String) -> Vec<String>{
+    let mut file_name = String::new();
+    let mut file_binary = String::new();
+    let mut has_whitespace = false;
+    for msg_char in msg.chars(){
+        if msg_char == ' ' {has_whitespace = true};
+        
+        if has_whitespace{
+            file_binary += &msg_char.to_string();
+        }else{
+            file_name += &msg_char.to_string();
+        }
+    }
+    file_name = format!("{}", &file_name[2..(file_name.chars().count() - 2)]);
+    file_binary = format!("{}", &file_binary[2..(file_binary.chars().count() - 2)]);
+    let file_data: Vec<String> = vec![file_name, file_binary]; 
     file_data
 }
