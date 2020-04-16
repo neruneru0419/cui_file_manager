@@ -13,9 +13,6 @@ fn main() {
     }
 }
 
-
-
-
 fn start_client(){
     println!("接続するサーバーのIPアドレスを入力して下さい");
     let ip = input();
@@ -33,7 +30,6 @@ fn start_client(){
             out.close(CloseCode::Normal)
         }
     }).unwrap()
-
 
 }
 
@@ -55,9 +51,7 @@ fn start_server(){
             println!("ファイルの受信が完了しました。");
             out.send("ファイルの送信が完了しました。")
         }
-
     }).unwrap()
-
 }
 
 fn string_to_vec(mut file_str: String) -> Vec<u8>{
@@ -69,6 +63,7 @@ fn string_to_vec(mut file_str: String) -> Vec<u8>{
     for i in file_vec_str{
         file_vec.push(i.parse::<u8>().unwrap());
     }
+
     file_vec
 }
 
@@ -77,6 +72,7 @@ fn get_file_binary(filename: String) -> Vec<u8>{
     let mut file_binary = Vec::new();
     f.read_to_end(&mut file_binary)
         .expect("failed to read file");
+
     file_binary
 }
 
@@ -104,5 +100,6 @@ fn parse_file_data(msg: String) -> Vec<String>{
     file_name = format!("{}", &file_name[2..(file_name.chars().count() - 2)]);
     file_binary = format!("{}", &file_binary[2..(file_binary.chars().count() - 2)]);
     let file_data: Vec<String> = vec![file_name, file_binary]; 
+    
     file_data
 }
